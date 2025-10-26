@@ -29,5 +29,5 @@ And because quick hacks are fun, but **clean experiments** teach more.
 
 Each experiment lives in its own folder with:
 
-- `README.md` (what it does)
+- `experiment.md` (what it does)
 - Flutter project (the experiment itself)

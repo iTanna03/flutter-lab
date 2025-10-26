@@ -124,8 +124,6 @@ class RenderSliverRadial extends RenderSliverMultiBoxAdaptor {
     final angularOffset = _linearToRadial(constraints.scrollOffset);
     final startIndex = (angularOffset / angleArcPerChild).floor();
     final endAngularOffset = angularOffset + visibleAngle;
-    print(
-        '$scrollableAngle - $endAngularOffset - ${angleArcPerChild * _visibleItemCount}');
 
     if (startIndex >= length) {
       geometry = SliverGeometry.zero;
@@ -213,9 +211,6 @@ class RenderSliverRadial extends RenderSliverMultiBoxAdaptor {
       child = childAfter(child);
     }
     collectGarbage(0, trailingGarbageChild);
-
-    print(
-        'Viewport - ${constraints.viewportMainAxisExtent} - ${constraints.remainingPaintExtent}');
 
     geometry = SliverGeometry(
       scrollExtent: maxScrollExtent,

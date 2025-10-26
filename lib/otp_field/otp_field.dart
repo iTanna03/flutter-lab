@@ -1,6 +1,3 @@
-// ignore_for_file: unused_import
-
-import 'dart:async';
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';

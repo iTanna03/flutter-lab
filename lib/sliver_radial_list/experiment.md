@@ -1,4 +1,4 @@
-# Experiment Conclusion
+# Experiment
 
 ## 🎯 Motive
 
